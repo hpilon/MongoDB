@@ -12,11 +12,13 @@ The script **"create_mongodb_container_v5.1.sh"** includes the use of:
 
 - Percona Backup for MongoDB
 
-- Added some logic to run this script in a CI/CD pipeline 
+ - In addition:
 
-- Optimized a few areas of the script, and cleaned the bash syntax 
+   - Added some logic to run this script in a CI/CD pipeline 
 
-- Added support for both logical and physical Percona (bpm) backup & restore 
+   - Optimized a few areas of the script, and cleaned the bash syntax 
+
+    - Added support for both logical and physical Percona (bpm) backup & restore 
 
 <b style="color:red">
 ⚠️ Warning Disclaimer 
@@ -34,7 +36,7 @@ PERCONA_SOFTWARE="percona-release_latest.jammy_all.deb" # key software package f
 
 **So it is imperative the above Debian distribution be available locally prior to invoking the script.**     
 
-## Comparison if MongoDB CE vs PErcona MongoDB 
+## Comparison if MongoDB CE vs Percona MongoDB (PSMDB)
 
 
 ✅ Additional Information:
@@ -70,8 +72,9 @@ PERCONA_SOFTWARE="percona-release_latest.jammy_all.deb" # key software package f
 
 ---
 
-# 📌 Important Notes:
+# 📌 Important Note:
 - **Percona Server for MongoDB (PSMDB)** is MongoDB with **enterprise-grade features for free**.
+
 - **Percona MongoDB Professional** is **professional services and support** on top of PSMDB or MongoDB CE/Enterprise.
 
 ---
@@ -82,4 +85,4 @@ PERCONA_SOFTWARE="percona-release_latest.jammy_all.deb" # key software package f
 
 ✅ The script "control_pmm_pbm-clients-to-containers_v1.sh" maybe of interest to facilitate the above. 
 
-💡 Have fun and feel free to modify these scripts to your liking. 
+💡 Have fun, and feel free to modify these scripts to your liking. 
