@@ -1,6 +1,6 @@
 # 📌 MongoDB - create_mongodb_container_v5.1.sh script
 
-![mongodb overview](overview-MongoDB.drawio-1.svg)
+![mongodb overview](overview-MongoDB.drawio.svg)
 
 ✅ Information:
 
