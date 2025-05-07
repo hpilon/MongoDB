@@ -1,5 +1,7 @@
 # 📌 MongoDB - create_mongodb_container_v5.1.sh script
 
+![mongodb overview](overview-MongoDB.drawio-1.svg)
+
 ✅ Information:
 
 This script was tested on ubuntu 22.04 and Red Hat 8.10 systems only. 
