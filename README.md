@@ -85,6 +85,6 @@ PERCONA_SOFTWARE="percona-release_latest.jammy_all.deb" # key software package f
 
 - By default bot the Percona PMM and PBM software are installed within the Docker image but not configure or started.
 
-✅ The script "control_pmm_pbm-clients-to-containers_v1.sh" maybe of interest to facilitate the above. 
+✅ The script "manage_pmm_pbm-clients_containers_approach_v1.sh" maybe of interest to facilitate the above. 
 
 💡 Have fun, and feel free to modify these scripts to your liking. 
